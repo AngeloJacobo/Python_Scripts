@@ -8,7 +8,7 @@ The python script will use PIL to grab the part of the screen where the texts "S
 ![mission](https://user-images.githubusercontent.com/87559347/131210333-e40f5317-4fd2-4a37-862c-7095ed347b6d.png)
 ![result](https://user-images.githubusercontent.com/87559347/131210337-b91b7e92-8e2d-4077-93a3-47ad9fe6702b.png)
 
-# Configure:  
+# Configure [default is for 1920x1080 Screen]:  
 * start_coord = location of the "Start" button (left_x,top_y,right_x,down_y)  
 * mission_coord = location of the "MISSION START" button (left_x,top_y,right_x,down_y)  
 * result_coord = location of the "Results" text (left_x,top_y,right_x,down_y)  
@@ -19,5 +19,7 @@ The python script will use PIL to grab the part of the screen where the texts "S
 
 # Install: 
 * Download and install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
-* Open bash at the same directory as *requirements.txt* then run:  
+* Open cmd prompt at the same directory as *requirements.txt* then run:  
 `pip install -r requirements.txt`
+* To start the script, open cmd prompt at the same directory as *game.py* then run:  
+`python game.py`
