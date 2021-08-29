@@ -16,3 +16,6 @@ The python script will use PIL to grab the part of the screen where the texts "S
 * mission_click = center coordinate of "MISSION START" button (x,y)  
 * result_click = any coordinates (x,y)  
 * abs_path = directory where grabbed images can be safely saved  
+
+# Install: 
+`pip install -r requirements.txt`
