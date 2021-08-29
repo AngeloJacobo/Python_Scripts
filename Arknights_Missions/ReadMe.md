@@ -1,5 +1,5 @@
 # About:
-Arknights has an autodeploy feauture in supply missions. Click "Start", click "Mission Start", wait for the battle to end then click anywhere to go back to "Start" button. To make these steps automated, the script "game.py" will control the mouse to repeatedly do the missions without having me to watch and wait for the whole battle to end. Click "Enter" for 2 to 3 seconds to close the script.
+Arknights has an autodeploy feauture in supply missions. Click "Start", click "Mission Start", wait for the battle to end then click anywhere to go back to "Start" button. To make these steps automated, the script "game.py" will control the mouse to repeatedly do the missions without having you to watch and wait for the whole battle to end. Click "Enter" for 2 to 3 seconds to close the script.
 
 The python script will use PIL to grab the part of the screen where the texts "Start","MISSION START", and "Results"(after battle) can be found. These images will be saved and used by pytesseract to recognize the texts on it. If either of the texts are recognized, it will use pyautogui to click on the part of the screen where that text can be found.
 
