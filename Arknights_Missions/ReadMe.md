@@ -18,4 +18,6 @@ The python script will use PIL to grab the part of the screen where the texts "S
 * abs_path = directory where grabbed images can be safely saved  
 
 # Install: 
+* Download and install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
+* Open bash at the same directory as *requirements.txt* then run:  
 `pip install -r requirements.txt`
